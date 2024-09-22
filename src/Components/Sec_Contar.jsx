@@ -3,7 +3,7 @@ export default function Sec_Contar(){
     return(
         <>
         
-            <section className={styles.contar} id='conctatosid'>
+            <section className={styles.contar} id='c'>
             <div className={styles.div_textos} data-aos="fade-up">
                         <h6 className={styles.texto_h6}>O Que Pode Contar</h6>
                         <p className="mb-10">Estou interessado em ouvir sobre qualquer projecto, grande ou pequeno. Seja uma ideia inovadora para um software desktop, 
