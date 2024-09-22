@@ -6,7 +6,7 @@ export default function SecFaca(){
           <section className={styles.sec_faca_sobre} id="sec3" data-aos="fade-right">
                     <div className={styles.cont} >
                         <div className={styles.sec_faca_sobre_img} >
-                        <Image src={`/Images/somos.jpg`}
+                        <Image src={`/Images/Somos.jpg`}
                              alt="imagem somos" width={400} height={400}  />
                         </div>
                         <div className={styles.sec_faca_sobre_text}>

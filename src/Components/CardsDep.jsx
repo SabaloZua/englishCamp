@@ -4,7 +4,7 @@ export default function Cards(){
     return(
         <>
              <div className={styles.card_itens}>
-                                <Image src={`/Images/somos.jpg`} alt="V" width={100} height={100}/>
+                                <Image src={`/Images/Somos.jpg`} alt="V" width={100} height={100}/>
                                 <p className={styles.nome_user}>Texto12</p>
                                 <p className={styles.dempoimento_user}>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
