@@ -16,7 +16,7 @@ export default function SecFaca(){
                         </div>
                         <div class={sytles.sec_faca_sobre_img} >
                             <Image src={`/Images/rapaz.jpg`}
-                             alt="imagem rapaz" width={400} height={400} quality={80}  />
+                             alt="imagem rapaz" width={500} height={400}   />
                         </div>
                     </div>
                 </section>

@@ -7,7 +7,7 @@ export default function SecFaca(){
                     <div className={styles.cont} >
                         <div className={styles.sec_faca_sobre_img} >
                         <Image src={`/Images/somos.jpg`}
-                             alt="imagem rapaz" width={400} height={400} quality={80}  />
+                             alt="imagem somos" width={400} height={400}  />
                         </div>
                         <div className={styles.sec_faca_sobre_text}>
                             <h3>Faça mais com English Camp</h3>
