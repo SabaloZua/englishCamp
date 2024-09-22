@@ -1,0 +1,46 @@
+
+  .card_itens{
+    background-color: #00370D ;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width:350px ;
+    color: var(--bg);
+    transition: .3s ;
+    cursor: pointer;
+ }
+  .card_itens img{
+    border-radius: 100%;
+    width: 90px !important;
+    display: block;
+    margin: 10px auto;
+
+ }
+ .card_itens .nome_user{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+ }
+  .card_itens .dempoimento_user
+ {
+    font-size: 15px;
+    padding: 0 15px;
+    
+ }
+
+ .card_itens .estrelas{
+    margin: 15px 0;
+    border-top: 2px solid  #71767a23;
+
+ }
+
+  .card_itens .estrelas i{
+    margin-top: 15px;
+    font-size: 20px;
+ }
+
+ 
+ .card_itens:hover{
+    background-color:  rgb(97, 129, 37);
+    margin-top: -5px;
+ }

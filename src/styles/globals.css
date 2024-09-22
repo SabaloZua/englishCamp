@@ -1,0 +1,72 @@
+/* @tailwind base; */
+/* @tailwind components;
+@tailwind utilities; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, Helvetica, sans-serif !important;
+    list-style: none !important;
+    text-decoration: none;
+}
+:root{
+  --red:#d63a25;
+  --bg:#fff;
+  --dark:#1e1c2a;
+
+}
+
+body{
+    color: var(--dark);
+    background-color: var(--bg);
+    overflow-x: hidden;
+}
+.containe{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width:1280px){
+  
+  .conteine{
+      width: 1280px;
+      padding: 2rem;    
+  }
+  
+
+
+}
+
+@media  screen and  (max-width:800px){
+    
+  body{
+      position: relative;
+       overflow-x: hidden !important;
+        
+   }
+   html {
+       overflow-x: hidden !important;
+     }
+ 
+ 
+
+        .depimentos{
+          margin-top: 40rem;
+        }
+  .depimentos .container{
+      display: flex;
+      flex-direction: column;
+  }   
+
+  .depimentos .container h2{
+      font-size: 2rem;
+      margin-bottom: 1rem;
+  }
+  .depimentos p{
+      font-size: 15px;
+  }
+
+}

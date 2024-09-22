@@ -1,0 +1,29 @@
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background-color: #00370D;
+    text-align: center;
+    height: 150px;
+    margin-top: 3rem;
+}
+.texto_footer{
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+}
+.footer a i{
+    font-size:24px;
+    line-height:24px;
+    cursor:pointer;
+    color: #fff;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: .60rem;
+   
+}
