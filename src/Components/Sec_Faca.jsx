@@ -7,14 +7,20 @@ export default function SecFaca(){
                     <div className={styles.cont} >
                         <div className={styles.sec_faca_sobre_img} >
                         <Image src={`/Images/Somos.jpg`}
-                             alt="imagem somos" width={400} height={400}  />
+                             alt="imagem somos" width={400} height={500}  />
                         </div>
                         <div className={styles.sec_faca_sobre_text}>
                             <h3>Faça mais com English Camp</h3>
                             <p>
-                                Olá, pessoal!😃É um prazer tê-los conosco nessa jornada de aprendizado de inglês.
-                             Estamos esperando que todos os integrantes se juntem ao 
-                            grupo, para então passarmos as informações importantes e começarmos a nossa caminhada juntos
+                             Na English Camp, acreditamos que aprender inglês vai além da sala de aula. 
+                             Oferecemos uma experiência completa que conecta o aprendizado com a prática em 
+                             situações reais, 
+                             ampliando as suas habilidades linguísticas. Com  workshops e
+                             oportunidades de interação com falantes nativos, ajudamos você a colocar em prática tudo o
+                             que aprende. Participe das nossas  aulas dinâmicas, 
+                             e veja como o inglês pode abrir portas para novas
+                              oportunidades. Na English Camp, 
+                              você vai além do básico, você vive o inglês!
                             </p>
                         </div>
                        

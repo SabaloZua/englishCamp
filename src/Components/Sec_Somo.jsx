@@ -9,14 +9,16 @@ export default function SecFaca(){
                         <div class={sytles.sec_faca_sobre_text} >
                             <h3>Quem Nós Somos </h3>
                             <p>
-                                Olá, pessoal!😃É um prazer tê-los conosco nessa jornada de aprendizado de inglês.
-                             Estamos esperando que todos os integrantes se juntem ao 
-                            grupo, para então passarmos as informações importantes e começarmos a nossa caminhada juntos
+                             Somos uma comunidade dedicada a ajudar você a atingir seu potencial máximo no aprendizado da língua inglesa. 
+                             Nosso objectivo é transformar o aprendizado de inglês em uma jornada agradável e 
+                             eficaz, proporcionando um ambiente acolhedor e interativo. Aqui, acreditamos que 
+                             aprender uma nova língua é mais do que memorizar palavras e regras gramaticais é 
+                             sobre confiança, comunicação real e crescimento pessoal.
                             </p>
                         </div>
                         <div class={sytles.sec_faca_sobre_img} >
                             <Image src={`/Images/rapaz.jpg`}
-                             alt="imagem rapaz" width={500} height={400}   />
+                             alt="imagem rapaz" width={500} height={500}   />
                         </div>
                     </div>
                 </section>

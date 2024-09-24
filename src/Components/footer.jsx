@@ -15,7 +15,7 @@ export default function Footer() {
                         <a href="#">
                             <i class="bi bi-envelope sf"></i>
                         </a>
-                        <a href="#">
+                        <a href="https://www.facebook.com/share/sUZy6Nz4UpNkVMQX/?mibextid=LQQJ4d" target='_blank'>
                             <i class="bi bi-facebook"></i>
                         </a>
                         <a href="#">
