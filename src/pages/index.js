@@ -6,7 +6,7 @@ import Sec_home from "../Components/Sec_home";
 import Sec_Somo from "@/Components/Sec_Somo";
 import Sec_Faca from "../Components/Sec_Faca"
 import Sec_Contar from "@/Components/Sec_Contar";
-import Sec_Dep from "@/Components/Sec_Dep";
+
 import Footer from "@/Components/footer";
 export default function Home() {
   return (
@@ -38,7 +38,7 @@ export default function Home() {
 
           <Sec_Contar/>
 
-          <Sec_Dep/>
+      
           
           <Footer/>
           </main>

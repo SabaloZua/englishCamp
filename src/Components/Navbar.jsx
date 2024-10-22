@@ -1,10 +1,12 @@
  import styles from '../styles/Navbar.module.css'
-
+import Image from 'next/image'
 export default function Navbar(){
     return(
         <>
         <nav className={styles.navgations}>
-                    <a href="#" className={styles.logo}>English Camp</a>
+                    <a href="#" className={styles.logo}>
+                         English Camp  
+                        </a>
                     <ul className={styles.nav_menu} id='nav_menuid'>
                         <li className={styles.nav_iten}>
                             <a href="#">Home</a>

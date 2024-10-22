@@ -16,19 +16,19 @@
 
 .btn_solid{
     border: none;
-    border-radius: 1.8rem;
-    background-color: #00370D;
-    color: #fff;
-    font-size: 1rem;
+    border-radius: 1.8rem !important;
+    background-color: #00370D !important;
+    color: #fff !important;
+    font-size: 1rem !important;
     letter-spacing: .15rem;
-    text-transform: uppercase;
-    padding: 1.2rem 1.5rem;
+    text-transform: uppercase !important;
+    padding: 1.2rem 1.5rem !important;
     display:inline-block;
     cursor: pointer;
-    transition: background-color 500ms;
+    transition: background-color 500ms !important;
 }
 .btn_solid:hover{
-    background-color: #4E6256;
+    background-color: #4E6256 !important;
 }
 
 .contar .formu{
