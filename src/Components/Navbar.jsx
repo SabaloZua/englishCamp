@@ -4,9 +4,12 @@ export default function Navbar(){
     return(
         <>
         <nav className={styles.navgations}>
-                    <a href="#" className={styles.logo}>
-                         English Camp  
-                        </a>
+                        <Image
+                            width={300}
+                            height={300}
+                            alt='logo'
+                            src={`/Images/logoE.png`}
+                        />
                     <ul className={styles.nav_menu} id='nav_menuid'>
                         <li className={styles.nav_iten}>
                             <a href="#">Home</a>
@@ -18,11 +21,11 @@ export default function Navbar(){
                             <a href="#conctatosid">Contactos</a>
                         </li>
                     </ul>
-                    <div className={styles.menu} id='menuid'>
-                        <span className={styles.bar}></span>
-                        <span className={styles.bar}></span>
-                        <span className={styles.bar}></span>
-                    </div>
+                        <div className={styles.menu} id='menuid'>
+                            <span className={styles.bar}></span>
+                            <span className={styles.bar}></span>
+                            <span className={styles.bar}></span>
+                        </div>
                 </nav>
         </>
     )

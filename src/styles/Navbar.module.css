@@ -6,16 +6,18 @@
     align-items: center;
     justify-content: space-between;
     padding: 18px 40px;
-    
     width: 100%;
     background: #00370D;
     transition: all 0.5s;
-  
+    max-height: 78px;
+    
 }
-.navgations .logo{
-    font-size: 1.7rem;
-    font-weight: 600;
-    color: #fff;
+
+.navgations img{
+    width: auto;
+    height: 400px;
+    object-fit: contain;
+    margin-top: 45px;
     
 }
 
@@ -55,10 +57,24 @@ gap: 5rem;
 
 @media  screen and  (max-width:800px){
     .navgations{
-        padding: 18px 20px;
+        padding: 18px 10px;
+        justify-content: space-between !important;
+        align-items: center;
+        width: 100%;
+        max-height: 100px;
+    }
+   
+    .navgations > img{
+        
+       height: 260px;
+       width: auto;
+        object-fit: cover;
+        margin-top: 17px;
     }
     .menu{
-        display: none;
+        display: block;
+        margin-right: 28px;
+       
     }
     .menu.activo .bar:nth-child(1){
         transform: translateY(7px) rotate(45deg);
@@ -81,9 +97,9 @@ gap: 5rem;
         transition: 0.3s;
     }
     .nav_menu.activo{
-        right: 0;
+        right: 0 !important;
     }
-    .nav_iten{
+    .nav_iten a{
         margin: 16px 0;
     }
   

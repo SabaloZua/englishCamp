@@ -44,7 +44,7 @@ export default function Home() {
           </main>
 
         </div>
-      <Script src="/scripts/script.js"/>  
+      <Script src="/scripts/script.js"  strategy="beforeInteractive" />  
       <Script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js" onReady={() =>{
         var scroll=new SmoothScroll('a[href*="#"]',{
           speed:600
